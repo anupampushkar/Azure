@@ -1,0 +1,27 @@
+#My learning the sudy Key value pair and 
+Person: # dictinory/map
+  Name: anupam
+  Age: 33
+  City: Dubai
+  Hobbies:
+    - Cooking
+    - bandminton
+  Friends:
+    - Name: Rahul
+      Age: 22
+    - Name: Jaja
+      Age: 44
+---
+#My learning the sudy Key value pair and 
+Person: # dictinory/map
+  Name: anupam
+  Age: 33
+  City: Dubai
+  Hobbies:
+    - Cooking
+    - bandminton
+  Friends:
+    - Name: Rahul
+      Age: 22
+    - Name: Jaja
+      Age: 44

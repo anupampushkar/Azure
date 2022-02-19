@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+    app: myapp #key value pair
+spec:
+  containers:
+    - name: myapp
+      image: anupampushkar/llpwebsite
+      ports:
+        - containerPort: 80
+

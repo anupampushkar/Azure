@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myapp2-rs
+spec:
+  replicas: 3
+  selector: 
+    matchLabels:
+      app: myapp2
+  template: 
+    metadata:
+      name: myapp2
+      labels:
+        app: myapp2 #key value pair
+    spec:
+      containers:
+        - name: myapp2
+          image: anupampushkar/llpwebsite
+          ports:
+            - containerPort: 80
