@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-pods
+spec:
+  replicas: 3
+  selector:
+    matchLabels: 
+      app: mc-deploy-pods
+  template:
+    metadata:
+        name: myapp2
+        labels:
+          app: mc-deploy-pods #key value pair
+    spec:
+      containers:
+        - name: myapp2
+          image: anupampushkar/demowebiste
+          ports:
+            - containerPort: 80
